@@ -9,6 +9,8 @@ type IMetaProps = {
   description: string;
   canonical?: string;
 };
+// Type Rerpesentation - Taking input as IMetaProps and output as JSX Element.
+// Meta => IMetaProps => JSX.Element
 
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
